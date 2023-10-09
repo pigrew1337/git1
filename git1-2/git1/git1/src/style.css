@@ -1,0 +1,37 @@
+:root {
+    --transparent: transparent;
+    --purple: #9c27b0;
+    --black: rgb(108, 108, 108);
+}
+
+.imgheader {
+    width: 50px;
+    height: 50px;
+}
+
+header {
+    border-bottom: solid 2px black ;
+}
+
+.unoimage {
+    height: 111px;
+    width: 111px;
+}
+
+div {
+    height: 900px;
+    text-align: center;
+    margin: 5px balck solid;
+}
+
+body {
+    background: repeating-linear-gradient(45deg,
+    var(--transparent), var(--transparent) 50px,
+    var(--purple) 50px, var(--purple) 100px,
+    var(--black) 100px, var(--black) 150px);
+}
+
+.uuu:hover {
+    border: solid 3px wheat;
+    border-radius: 25px;
+}
